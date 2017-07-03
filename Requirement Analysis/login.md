@@ -10,8 +10,9 @@
 2.完成用户名和密码的客户端和服务端验证<br/>
 3.判断是管理员用户还是普通用户<br/>
 4.跳转相应页面或服务<br/>
+<img src=http://chuantu.biz/t5/125/1499094618x974338601.png />
 
-功能描述：实现在线影视系统的用户或管理员登录服务
-核心技术：jsp+servlet+mysql
-运行环境：windows/Linux  
+功能描述：实现在线影视系统的用户或管理员登录服务<br/>
+核心技术：jsp+servlet+mysql <br/>
+运行环境：windows/Linux    <br/>
 
