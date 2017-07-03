@@ -2,7 +2,7 @@
 <br/>
   **This is a repository created by CoCo-Fly**
 
-<img src="http://pic.58pic.com/58pic/17/85/91/559e8d6ea2456_1024.jpg" width="200" height="200" align="center">
+<img src="http://pic.qiantucdn.com/58pic/20/09/45/28C58PICBTI_1024.jpg" width="200" height="100" align="center">
 
 <table>
 <tr>
