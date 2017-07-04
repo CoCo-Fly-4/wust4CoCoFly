@@ -1,10 +1,6 @@
 # Welcome to [CoCo-Fly](https://github.com/CoCo-Fly-4/wust4CoCoFly)
 <br/>
 
-  *This is a repository created by CoCo-Fly*
-  
-<br/>
-
 ![](http://i4.piimg.com/1949/60be8c9995de96da.jpg)
 
 ## 一.项目名称： CoCo-Flyer Movie Factory
