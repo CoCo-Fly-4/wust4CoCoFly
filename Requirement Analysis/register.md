@@ -9,7 +9,7 @@
 1.输入用户名和密码<br/>
 2.完成用户名和密码的客户端和服务端验证<br/>
 3.点击注册，跳转登录<br/><br/>
-<img src=http://chuantu.biz/t5/125/1499136623x1035452427.png />
+![流程图](http://chuantu.biz/t5/125/1499136623x1035452427.png "注册")
 功能描述：实现在线影视系统的用户注册<br/>
 核心技术：jsp+servlet+mysql<br/>
 运行环境：windows/Linux  <br/>
