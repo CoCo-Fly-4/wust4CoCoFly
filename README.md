@@ -3,11 +3,14 @@
   *This is a repository created by CoCo-Fly*
 <br/>
 <img src="http://pic.qiantucdn.com/58pic/20/09/45/28C58PICBTI_1024.jpg" width="200" height="100" align="center">
-# 项目名称： CoCo-Flyer Movie Factory
+
+## 项目名称： CoCo-Flyer Movie Factory
 <br/>
-# 项目功能： 暂完成用户注册和登录功能  
+
+## 项目功能： 暂完成用户注册和登录功能  
 <br/>
-# 项目成员及分工： 
+
+## 项目成员及分工： 
 <br/>
 <table>
 <tr>
