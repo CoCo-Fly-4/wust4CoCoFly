@@ -5,6 +5,56 @@
 	<title>注册 - CoCo-Flyer Movie Factory </title>
 	
 	<link rel="stylesheet" type="text/css" href="css/register-login.css">
+	
+<script type="text/javascript" language="javascript">
+	 function checkname(){  //失去焦点时执行的函数
+	  if(user.value==""){
+	   /* document.getElementById("show").style.visibility="visible";
+	   show.value = "用户名不能为空" ; */
+	   var inner=document.getElementById("in");
+	   inner.innerHTML="<font color='red'>用户名为空</font>";
+	  }
+	  else{
+	  var inner=document.getElementById("in");
+	   inner.innerHTML="";
+	  }
+	  function test1(){  //获得焦点时执行的函数	 
+	   show.value ="" ;
+	 }
+}
+
+	  function checkpsw(){
+	    if(!user.value==""){
+		  	if(password.value==""){
+		    var inner=document.getElementById("in");
+		    inner.innerHTML="<font color='red'>密码为空</font>";
+		  }
+		  else{
+		  var inner=document.getElementById("in");
+		   inner.innerHTML="";
+		  }
+		}		
+		else{
+		}
+	}
+	
+		function checkrpsw(){
+			if(!user.value==""&&!password.value==""){
+			  if(password1.value==""){
+				   var inner=document.getElementById("in");
+				   inner.innerHTML="<font color='red'>确认密码为空</font>";
+			  }
+			  else{
+			  var inner=document.getElementById("in");
+			   inner.innerHTML="";
+			  }
+ 		}
+ 		else{
+ 		}
+ }
+	 
+</script>
+	
 </head>
 <body>
 <div id="box"></div>
@@ -26,21 +76,24 @@
 		<div class="login form">
 			<div class="group">
 				<div class="group-ipt email">
-					<input type="email" name="email" id="email" class="ipt" placeholder="账号" required>
+					<input type="text"  name="username" id="user" class="ipt" placeholder="账号" onblur="checkname()" onfocus="test1()">
+					
 				</div>
 				
 				<div class="group-ipt password">
-					<input type="password" name="password" id="password" class="ipt" placeholder="登录密码" required>
+					<input type="password" name="password" id="password" class="ipt" placeholder="登录密码" onblur="checkpsw()">
 				</div>
 				<div class="group-ipt password1">
-					<input type="password" name="password1" id="password1" class="ipt" placeholder="重复密码" required>
+					<input type="password" name="password1" id="password1" class="ipt" placeholder="确认密码" onblur="checkrpsw()">
 				</div>
 				
 			</div>
 		</div>
-
+<!-- <input type="text" id="show"  style="color:red;visibility:hidden;"  /> -->
+<span id="in"></span>
 		<div class="button">
-			<button type="submit" class="login-btn register-btn" id="button">注册</button>
+	
+			<button type="submit" class="login-btn register-btn" id="button" >注册</button>
 		</div>
 	</div>
 </div>
