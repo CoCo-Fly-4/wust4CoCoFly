@@ -7,6 +7,7 @@
 <img src="http://pic.qiantucdn.com/58pic/20/09/45/28C58PICBTI_1024.jpg" width="400" height="200" align="center">
 
 ## 项目名称： CoCo-Flyer Movie Factory
+
 <br/>
 
 ## 项目功能： 暂完成用户注册和登录功能  
