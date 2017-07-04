@@ -4,7 +4,8 @@
   *This is a repository created by CoCo-Fly*
   
 <br/>
-<img src="http://pic.qiantucdn.com/58pic/20/09/45/28C58PICBTI_1024.jpg" width="400" height="200" align="center">
+
+![](http://pic.qiantucdn.com/58pic/20/09/45/28C58PICBTI_1024.jpg?imageView/2/w/400/q/200)
 
 ## 项目名称： CoCo-Flyer Movie Factory
 
