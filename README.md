@@ -5,7 +5,7 @@
   
 <br/>
 
-![](http://pic.qiantucdn.com/58pic/20/09/45/28C58PICBTI_1024.jpg?imageMogr2/thumbnail/!20p)
+![](http://i4.piimg.com/1949/60be8c9995de96da.jpg)
 
 ## 项目名称： CoCo-Flyer Movie Factory
 
