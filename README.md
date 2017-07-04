@@ -1,8 +1,10 @@
 # Welcome to [CoCo-Fly](https://github.com/CoCo-Fly-4/wust4CoCoFly)
 <br/>
+
   *This is a repository created by CoCo-Fly*
+  
 <br/>
-<img src="http://pic.qiantucdn.com/58pic/20/09/45/28C58PICBTI_1024.jpg" width="200" height="100" align="center">
+<img src="http://pic.qiantucdn.com/58pic/20/09/45/28C58PICBTI_1024.jpg" width="400" height="200" align="center">
 
 ## 项目名称： CoCo-Flyer Movie Factory
 <br/>
