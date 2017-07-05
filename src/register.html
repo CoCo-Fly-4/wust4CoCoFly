@@ -14,13 +14,20 @@
 	   var inner=document.getElementById("in");
 	   inner.innerHTML="<font color='red'>用户名为空</font>";
 	  }
-	  else{
-	  var inner=document.getElementById("in");
-	   inner.innerHTML="";
+	  if(user.value!=""){
+	    var yhm=document.getElementById("user").value;
+        var reg=/^[a-zA-Z]\w{5,17}$/;
+        var inner=document.getElementById("in");
+        if(reg.test(yhm)==false){
+        inner.innerHTML="<font color='red'>以字母开头，长度在6-18之间，只能包含字符、数字和下划线</font>";
+        }
+        else{
+	    inner.innerHTML="";
+	   }
 	  }
-	  function test1(){  //获得焦点时执行的函数	 
+	 /*  function test1(){  //获得焦点时执行的函数	 
 	   show.value ="" ;
-	 }
+	 } */
 }
 
 	  function checkpsw(){
@@ -28,15 +35,20 @@
 		  	if(password.value==""){
 		    var inner=document.getElementById("in");
 		    inner.innerHTML="<font color='red'>密码为空</font>";
-		  }
-		  else{
-		  var inner=document.getElementById("in");
-		   inner.innerHTML="";
-		  }
-		}		
-		else{
-		}
-	}
+		    }
+		    if(password.value!=""){
+	          var psd=document.getElementById("password").value;
+              var reg1=/^[a-zA-Z]\w{6,18}$/ ;                     /* 由数字、大写字母、小写字母、特殊字符四种字符中的 至少 两种字符组成。6-18位*/
+              var inner=document.getElementById("in");
+              if(reg1.test(psd)==false){
+              inner.innerHTML="<font color='red'>请输入以字母开头，长度在7-19之间，只能包含字符、数字和下划线的密码</font>";
+              }
+              else{
+	             inner.innerHTML="";
+	          }
+	        }
+	    }
+	 }
 	
 		function checkrpsw(){
 			if(!user.value==""&&!password.value==""){
