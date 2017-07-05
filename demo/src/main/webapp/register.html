@@ -6,21 +6,24 @@
 	
 	<link rel="stylesheet" type="text/css" href="css/register-login.css">
 	
-<script type="text/javascript" language="javascript">
+<script type="text/javascript">
 	 function checkname(){  //失去焦点时执行的函数
 	  if(user.value==""){
-	   /* document.getElementById("show").style.visibility="visible";
-	   show.value = "用户名不能为空" ; */
 	   var inner=document.getElementById("in");
 	   inner.innerHTML="<font color='red'>用户名为空</font>";
 	  }
-	  else{
-	  var inner=document.getElementById("in");
-	   inner.innerHTML="";
+	  if(user.value!=""){
+	    var yhm=document.getElementById("user").value;
+        var reg=/^[a-zA-Z]\w{5,17}$/;
+        if(reg.test(yhm)==false){
+        var inner=document.getElementById("in");
+	    inner.innerHTML="<font color='red'>以字母开头，长度在6-18之间，只能包含字符、数字和下划线</font>";
+	    }
+	    else{
+	        var inner=document.getElementById("in");
+	        inner.innerHTML="";
+	    }
 	  }
-	  function test1(){  //获得焦点时执行的函数	 
-	   show.value ="" ;
-	 }
 }
 
 	  function checkpsw(){
@@ -28,15 +31,21 @@
 		  	if(password.value==""){
 		    var inner=document.getElementById("in");
 		    inner.innerHTML="<font color='red'>密码为空</font>";
-		  }
-		  else{
-		  var inner=document.getElementById("in");
-		   inner.innerHTML="";
-		  }
-		}		
-		else{
-		}
-	}
+		    }
+            if(password.value!=""){
+	           var psd=document.getElementById("password").value;
+               var reg1=/^[0-9A-Za-z]{6,}$/;
+               if(reg1.test(psd)==false){
+                   var inner=document.getElementById("in");
+	               inner.innerHTML="<font color='red'>请输入密码长度不少于6位,并且由数字和字符组成的密码</font>";
+	           }
+	           else{
+	               var inner=document.getElementById("in");
+	               inner.innerHTML="";
+	           }
+	        }
+         }		
+}
 	
 		function checkrpsw(){
 			if(!user.value==""&&!password.value==""){
